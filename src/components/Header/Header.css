@@ -121,24 +121,18 @@ header .left p {
 
 @media (max-width:860px) {
 
-    .target {
-        height: 201px;
-        bottom: 0;
-        right: -700px;
-        border-bottom-left-radius: 110px;
-    }
 
 
 
     header .header-container {
         flex-direction: column;
         justify-content: center;
-        padding: 0;
+        padding: 0 13px;
     }
 
 
     header .left {
-       /*  background: red; */
+        /*  background: red; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -153,10 +147,9 @@ header .left p {
     }
 
     header .left p {
-        max-width: 400px;
-        text-align: center;
+        max-width: 500px;
         font-size: 15px;
-
+       /*  padding: 0 20px; */
     }
 
     .right {
@@ -166,19 +159,28 @@ header .left p {
         align-items: center;
 
         order: -1;
-        min-height: 40vh;
+        min-height: 280px;
         margin-top: 60px;
     }
 
     .heroImage {
-        max-width: 400px;
+        max-width: 520px;
         height: auto;
 
         top: 50%;
         left: 50%;
 
         transform: translate(-50%, -50%);
+        
 
+    }
+
+    .target {
+        max-width: 1000px;
+        height: 231px;
+        bottom: -25px;
+        right: -600px;
+        border-bottom-left-radius: 110px;
     }
 
 
@@ -189,4 +191,17 @@ header .left p {
     .btn-firefox {
         padding: 14px 15px;
     }
+}
+
+@media (max-width:500px){
+    .target {
+        height: 201px;
+        bottom: 0px;
+        right: -690px;
+    }
+    header .left p {
+        padding: 0 20px;
+        text-align: center;
+    }
+
 }
