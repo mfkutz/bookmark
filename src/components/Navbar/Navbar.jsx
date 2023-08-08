@@ -12,7 +12,9 @@ const Navbar = () => {
         <>
             <nav>
                 <div className="wrapper">
-                    <Logo icon={'#5267DF'} tape={'#FFF'} fontColor={'#242A45'} />
+                    <div className={`${menuMobile ? 'potterCape' : ''}`}>
+                        <Logo icon={'#5267DF'} tape={'#FFF'} fontColor={'#242A45'} />
+                    </div>
                     <ul className='menuDesktop'>
                         <li>
                             <a href="#" className='menu_option_desktop'>Features</a>
@@ -27,7 +29,7 @@ const Navbar = () => {
                             <a href="#" className='login'>Login</a>
                         </li>
                     </ul>
-                    <img src={iconHamburguer} alt="" className='hamburguer' onClick={() => setMenuMobile(true)} />
+                    <img src={iconHamburguer} alt="hamburguer" className={`hamburguer ${menuMobile ? 'disabled' : ''}`} onClick={() => setMenuMobile(true)} />
                 </div>
             </nav>
 
