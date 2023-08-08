@@ -1,0 +1,43 @@
+:root {
+    /* ### Primary */
+    --Soft-Blue-color: hsl(231, 69%, 60%);
+    --Soft-Red-color: hsl(0, 94%, 66%);
+    /* ### Neutral */
+    --Grayish-Blue: hsl(229, 8%, 60%);
+    --Very-Dark-Blue: hsl(229, 31%, 21%);
+
+    --gray: #313132;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+ul,
+a,
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1105px;
+    margin: 0 auto;
+}
+
+
+
+@media (max-width:860px) {
+   /*  .wrapper {
+        padding: 0 20px;
+    } */
+}
