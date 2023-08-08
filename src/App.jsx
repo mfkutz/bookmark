@@ -5,9 +5,9 @@ const App = () => {
     <>
       <Navbar />
       <Header />
-      {/* <Features /> */}
-      {/* <FeaturesOptions /> */}
-      {/* <ExtensionTitle /> */}
+      <Features />
+      <FeaturesOptions />
+      <ExtensionTitle />
       {/*  <ExtensionAdd /> */}
       {/* <QuestionTitle /> */}
       {/* <Questions /> */}

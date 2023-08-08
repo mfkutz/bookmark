@@ -202,6 +202,7 @@ header .left p {
     header .left p {
         padding: 0 20px;
         text-align: center;
+        line-height: 25px;
     }
 
 }

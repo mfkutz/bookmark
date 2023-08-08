@@ -13,7 +13,9 @@ const Navbar = () => {
             <nav>
                 <div className="wrapper">
                     <div className={`${menuMobile ? 'potterCape' : ''}`}>
-                        <Logo icon={'#5267DF'} tape={'#FFF'} fontColor={'#242A45'} />
+                        <a href="#">
+                            <Logo icon={'#5267DF'} tape={'#FFF'} fontColor={'#242A45'} />
+                        </a>
                     </div>
                     <ul className='menuDesktop'>
                         <li>
