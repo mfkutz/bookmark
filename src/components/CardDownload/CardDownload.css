@@ -1,0 +1,26 @@
+.logo_nav {
+    padding-top: 46px;
+}
+
+.download_title {
+    padding-top: 35px;
+}
+
+.p_version {
+    font-size: 14px;
+    padding-top: 6px;
+}
+
+.separator {
+    padding-top: 32px;
+    margin-bottom: 37px;
+}
+
+.btn_install {
+    background: var(--Soft-Blue-color);
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    padding: 15px 34px;
+    border-radius: 5px;
+}

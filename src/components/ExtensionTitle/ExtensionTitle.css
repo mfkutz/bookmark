@@ -1,0 +1,24 @@
+.title_download_extension{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: red; */
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.title_download_extension h2 {
+    padding-top: 166px;
+    padding-bottom: 39px;
+}
+.title_download_extension p{
+    max-width: 540px;
+    text-align: center;
+}
+
+@media (max-width:1120px){
+    .title_download_extension h2 {
+        padding-top: 0px;
+        padding-bottom: 12px;
+    }
+}

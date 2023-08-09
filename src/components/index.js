@@ -19,5 +19,5 @@ export {
     QuestionTitle,
     Questions,
     Contact,
-    Footer
+    Footer,
 }

@@ -7,9 +7,9 @@ const App = () => {
       <Header />
       <Features />
       <FeaturesOptions />
-      {/* <ExtensionTitle /> */}
-      {/*  <ExtensionAdd /> */}
-      {/* <QuestionTitle /> */}
+      <ExtensionTitle />
+      <ExtensionAdd />
+      <QuestionTitle />
       {/* <Questions /> */}
       {/* <Contact /> */}
       {/* <Footer /> */}

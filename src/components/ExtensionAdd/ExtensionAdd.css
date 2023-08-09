@@ -1,0 +1,67 @@
+#download_extension {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#download_extension .card {
+    width: 280px;
+    height: 370px;
+    box-shadow: 1px 11px 15px -10px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+    border-radius: 15px;
+}
+
+#download_extension .card .logo_nav {
+    padding-top: 46px;
+}
+
+#download_extension .card h3 {
+    padding-top: 35px;
+}
+
+#download_extension .card p {
+    font-size: 14px;
+    padding-top: 6px;
+}
+
+#download_extension .card .separator {
+    padding-top: 32px;
+    margin-bottom: 37px;
+}
+
+.btn_install {
+    background: var(--Soft-Blue-color);
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    padding: 15px 34px;
+    border-radius: 5px;
+}
+
+/******* ORDER OF CARS ********/
+
+.card.two {
+    margin-top: 40px;
+}
+
+.card.three {
+    margin-top: 80px;
+}
+
+
+@media (max-width:1120px) {
+    #download_extension {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:500px){
+    #download_extension {
+        gap: 5px;
+    }
+}
