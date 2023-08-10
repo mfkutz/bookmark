@@ -1,0 +1,33 @@
+.title_question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: red; */
+    /* justify-content: center; */
+   /*  align-content: center; */
+    text-align: center;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.title_question h2 {
+    padding-top: 166px;
+    padding-bottom: 39px;
+}
+
+.title_question p {
+    max-width: 540px;
+    text-align: center;
+}
+
+@media (max-width:1120px) {
+    .title_question h2 {
+       padding: 138px 15px 20px 15px;
+    }
+}
+
+@media (max-width:860px) {
+    #features {
+        padding: 30px 0 40px 0;
+    }
+ }

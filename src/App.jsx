@@ -10,7 +10,7 @@ const App = () => {
       <ExtensionTitle />
       <ExtensionAdd />
       <QuestionTitle />
-      {/* <Questions /> */}
+      <Questions />
       {/* <Contact /> */}
       {/* <Footer /> */}
     </>

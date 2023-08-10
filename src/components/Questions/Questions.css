@@ -1,0 +1,9 @@
+.accordeon_container {
+    display: flex;
+   
+    justify-content: center;
+}
+
+.accordeon {
+    width: 540px;
+}
