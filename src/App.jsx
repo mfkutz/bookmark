@@ -11,8 +11,8 @@ const App = () => {
       <ExtensionAdd />
       <QuestionTitle />
       <Questions />
-      {/* <Contact /> */}
-      {/* <Footer /> */}
+      <Contact />
+      <Footer />
     </>
   )
 }

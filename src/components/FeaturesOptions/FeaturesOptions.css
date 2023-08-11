@@ -54,11 +54,6 @@
     z-index: -1;
 }
 
-
-
-
-
-
 /*************** RIGHT ******************/
 .description_right {
     width: 900px;
@@ -71,14 +66,6 @@
 .description_right p {
     padding: 25px 0 40px 0;
 }
-
-/* .btn_info {
-    background: var(--Soft-Blue-color);
-    color: white;
-    font-size: 14px;
-    padding: 12px 22px;
-    border-radius: 5px;
-} */
 
 @media (max-width:1120px) {
     .description_features {
@@ -97,14 +84,12 @@
 
     .description_left {
         position: relative;
-        /* background: red; */
         align-items: center;
         justify-content: center;
         width: 100%;
     }
 
     .description_right {
-        /* background: green; */
         width: 100%;
     }
 

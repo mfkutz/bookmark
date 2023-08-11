@@ -4,4 +4,11 @@
     font-size: 14px;
     padding: 12px 22px;
     border-radius: 5px;
+    box-shadow: 0px 3px 5px 1px rgba(177, 175, 175, 0.474);
+}
+
+.btn_info:hover {
+    background: #FFF;
+    color: var(--Soft-Blue-color);
+    outline: 2px solid var(--Soft-Blue-color);
 }

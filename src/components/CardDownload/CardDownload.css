@@ -24,3 +24,9 @@
     padding: 15px 34px;
     border-radius: 5px;
 }
+
+.btn_install:hover {
+    background: #FFF;
+    color: var(--Soft-Blue-color);
+    outline: 2px solid var(--Soft-Blue-color);
+}
