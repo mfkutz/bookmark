@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './FeaturesOptions.css'
 
 import { illustration1, illustration2, illustration3 } from '../../assets/index'
+import Button from '../Button/Button'
 
 const FeaturesOptions = () => {
 
@@ -63,9 +64,7 @@ const FeaturesOptions = () => {
               Organize your bookmarks however you like. Our simple drag-and-drop interface
               gives you complete control over how you manage your favourite sites.
             </p>
-            <a href="#" className='btn_info'>
-              More Info
-            </a>
+            <Button />
           </div>
 
           <div className={`simple  ${btnTwo ? 'active' : 'disabled'}`}>
@@ -76,9 +75,7 @@ const FeaturesOptions = () => {
               Our powerful search feature will help you find saved sites in no time at all.
               No need to trawl through all of your bookmarks.
             </p>
-            <a href="#" className='btn_info'>
-              More Info
-            </a>
+            <Button />
           </div>
 
           <div className={`simple  ${btnThree ? 'active' : 'disabled'}`}>
@@ -89,9 +86,7 @@ const FeaturesOptions = () => {
               Easily share your bookmarks and collections with others. Create a shareable
               link that you can send at the click of a button.
             </p>
-            <a href="#" className='btn_info'>
-              More Info
-            </a>
+            <Button />
           </div>
 
         </div>

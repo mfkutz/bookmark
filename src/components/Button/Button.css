@@ -1,0 +1,7 @@
+.btn_info {
+    background: var(--Soft-Blue-color);
+    color: white;
+    font-size: 14px;
+    padding: 12px 22px;
+    border-radius: 5px;
+}
