@@ -19,10 +19,10 @@ const Navbar = () => {
                     </div>
                     <ul className='menuDesktop'>
                         <li>
-                            <a href="#" className='menu_option_desktop'>Features</a>
+                            <a href="#features" className='menu_option_desktop'>Features</a>
                         </li>
                         <li>
-                            <a href="#">Pricing</a>
+                            <a href="#extension">Pricing</a>
                         </li>
                         <li>
                             <a href="#contact">Contact</a>
@@ -47,15 +47,15 @@ const Navbar = () => {
 
                     <div className='menu_mobile_container'>
                         <div className='menu_option'>
-                            <a href="#">Features</a>
+                            <a href="#features" onClick={() => { setMenuMobile(false) }}>Features</a>
                         </div>
 
                         <div className='menu_option'>
-                            <a href="#">Pricing</a>
+                            <a href="#extension" onClick={() => { setMenuMobile(false) }}>Pricing</a>
                         </div>
 
                         <div className='menu_option'>
-                            <a href="#">Contact</a>
+                            <a href="#contact" onClick={() => { setMenuMobile(false) }}>Contact</a>
                         </div>
 
                         <div className='menu_option_special'>
