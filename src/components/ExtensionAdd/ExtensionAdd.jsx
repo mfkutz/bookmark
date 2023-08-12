@@ -1,5 +1,4 @@
 import './ExtensionAdd.css'
-
 import { logoChrome, logoFirefox, logoOpera } from '../../assets/index'
 import CardDownload from '../CardDownload/CardDownload'
 

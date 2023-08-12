@@ -1,8 +1,5 @@
 header {
-    /* position: relative; */
     overflow: hidden;
-
-    /* background: green; */
 }
 
 header .header-container {
@@ -70,7 +67,6 @@ header .left p {
 }
 
 .right {
-    /* background: red; */
     width: 100%;
     position: relative;
 }
@@ -96,10 +92,8 @@ header .left p {
     .heroImage {
         width: 100%;
         height: auto;
-
         bottom: 66px;
         right: -10px;
-
     }
 
     header .header-container {
@@ -120,24 +114,17 @@ header .left p {
 }
 
 @media (max-width:860px) {
-
-
-
-
     header .header-container {
         flex-direction: column;
         justify-content: center;
         padding: 0 13px;
     }
 
-
     header .left {
-        /*  background: red; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
     }
 
     header .left h1 {
@@ -149,15 +136,12 @@ header .left p {
     header .left p {
         max-width: 500px;
         font-size: 15px;
-       /*  padding: 0 20px; */
     }
 
     .right {
-        /* background: yellow; */
         flex: flex;
         justify-content: center;
         align-items: center;
-
         order: -1;
         min-height: 280px;
         margin-top: 60px;
@@ -166,13 +150,9 @@ header .left p {
     .heroImage {
         max-width: 520px;
         height: auto;
-
         top: 50%;
         left: 50%;
-
         transform: translate(-50%, -50%);
-        
-
     }
 
     .target {
@@ -193,12 +173,13 @@ header .left p {
     }
 }
 
-@media (max-width:500px){
+@media (max-width:500px) {
     .target {
         height: 201px;
         bottom: 0px;
         right: -710px;
     }
+
     header .left p {
         padding: 0 20px;
         text-align: center;

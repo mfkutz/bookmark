@@ -14,7 +14,6 @@
     cursor: pointer;
 }
 
-
 .btn_features.active {
     color: var(--gray);
     box-shadow: inset 0 -4px 0 var(--Soft-Red-color);
@@ -29,19 +28,12 @@
     padding-bottom: 70px;
 }
 
-
-
 .description_left {
     display: flex;
     position: relative;
     width: 100%;
-    /* background: red; */
     justify-content: end;
-
-
 }
-
-
 
 .type_description {
     background: var(--Soft-Blue-color);
@@ -94,7 +86,6 @@
     }
 
     .simple {
-
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -110,9 +101,7 @@
 @media (max-width:750px) {
     #featuresOp .menu_features {
         flex-direction: column;
-        /* background: green; */
         align-items: center;
-        /* padding: 0 25px; */
     }
 
     .btn_features {

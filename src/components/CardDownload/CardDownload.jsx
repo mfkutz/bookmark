@@ -1,5 +1,5 @@
 import './CardDownload.css'
-import { logoChrome, background } from '../../assets/index'
+import { background } from '../../assets/index'
 
 const CardDownload = ({ logo, title, version }) => {
     return (
