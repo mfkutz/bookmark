@@ -14,8 +14,8 @@ const Header = () => {
             browser tab and see your sites load instantly. Try it for free.
           </p>
           <div className="buttons-container">
-            <a href="#" className='btn-chrome'>Get it on Chrome</a>
-            <a href="#" className='btn-firefox'>Get it on Firefox</a>
+            <a href="#extension" className='btn-chrome'>Get it on Chrome</a>
+            <a href="#extension" className='btn-firefox'>Get it on Firefox</a>
           </div>
         </div>
         <div className="right">
