@@ -12,7 +12,8 @@ header .left h1 {
     color: var(--Very-Dark-Blue);
     font-weight: 500;
     font-size: 49px;
-    margin-top: 190px;
+    margin-top: 185px;
+    line-height: 55px;
 }
 
 header .left p {
@@ -67,8 +68,9 @@ header .left p {
 }
 
 .right {
-    width: 100%;
+    width: 130%;
     position: relative;
+    /* background: green; */
 }
 
 .target {
@@ -83,12 +85,11 @@ header .left p {
 
 .heroImage {
     position: absolute;
-    bottom: 16px;
+    bottom: 28px;
     right: -110px;
-    display: flex;
 }
 
-@media (max-width:1120px) {
+@media (max-width:1260px) {
     .heroImage {
         width: 100%;
         height: auto;
@@ -114,6 +115,7 @@ header .left p {
 }
 
 @media (max-width:860px) {
+  
     header .header-container {
         flex-direction: column;
         justify-content: center;
@@ -139,6 +141,7 @@ header .left p {
     }
 
     .right {
+        width: 100%;
         flex: flex;
         justify-content: center;
         align-items: center;
